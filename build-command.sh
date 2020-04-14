@@ -1,1 +1,1 @@
-git clone git@github.com:leogeier/powernap.git powernap
+git clone https://github.com/leogeier/powernap.git
