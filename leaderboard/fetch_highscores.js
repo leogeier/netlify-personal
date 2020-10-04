@@ -6,7 +6,7 @@ function create_td(content) {
 }
 
 window.onload = async () => {
-  const scores = await ( await fetch("http://stuff.leonardgeier.com/highscore?count=10") ).json();
+  const scores = await ( await fetch("https://stuff.leonardgeier.com/highscore?count=10") ).json();
 
   const table_tag = document.getElementById("leaderboard-body");
   for (let i = 0; i < scores.length; i++) {
