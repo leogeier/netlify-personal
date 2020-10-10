@@ -2,14 +2,34 @@
 
 
 html {
-  background: #28103B;
+  /* background: #28103B; */
+  background: #7f0000;
+  color: white;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+#content {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#title-image {
+  margin: 40px auto;
+}
+
+.title {
+  font-family: Arial;
+  text-align: center;
 }
 
 #leaderboard {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translateX(-50%) translateY(-50%); */
 
   font-size: 20px;
 }
@@ -33,10 +53,9 @@ td, th {
 }
 
 tr:nth-child(odd) {
-  background: #763E8A;
+  background: #34022b;
 }
 
 tr:nth-child(even) {
-  background: #28103B;
-  color: #763E8A;
+  background: #63002f;
 }
